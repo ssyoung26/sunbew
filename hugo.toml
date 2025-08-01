@@ -6,6 +6,7 @@ theme = 'shibui'
 [params]
   author = "Sonny Young "
   email = "ssyoung@mit.edu"
+  enableEmoji = true
 
 [menu]
   [[menu.main]]
