@@ -2,10 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Placeholder website name</title>
-    <link>https://sonnyisyoung.org/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Placeholder website name</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://sonnyisyoung.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Aug 2025 17:28:48 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sonny Likes</title>
+      <link>http://localhost:1313/posts/first-post/</link>
+      <pubDate>Fri, 01 Aug 2025 17:28:48 +0900</pubDate>
+      <guid>http://localhost:1313/posts/first-post/</guid>
+      <description>&lt;h2 id=&#34;birth-of-the-website&#34;&gt;Birth of the website&lt;/h2&gt;&#xA;&lt;p&gt;Favorite foods:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;unagi&lt;/li&gt;&#xA;&lt;li&gt;soba&lt;/li&gt;&#xA;&lt;li&gt;tororo&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
   </channel>
 </rss>
