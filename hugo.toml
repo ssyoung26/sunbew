@@ -1,0 +1,18 @@
+baseURL = 'https://sonnyisyoung.org/'
+languageCode = 'en-us'
+title = "Placeholder website name"
+theme = 'shibui'
+
+[params]
+  author = "Sonny Young "
+  email = "ssyoung@mit.edu"
+
+[menu]
+  [[menu.main]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 1
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
