@@ -4,6 +4,4 @@ draft = false
 title = 'About'
 +++
 
-# Introduction
-
 Hi this is Sonny's website  :)
