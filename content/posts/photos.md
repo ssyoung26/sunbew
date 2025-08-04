@@ -1,6 +1,6 @@
 +++
 date = '2025-08-01T17:48:00+09:00'
-draft = false 
+draft = true 
 title = 'Photos'
 +++
 

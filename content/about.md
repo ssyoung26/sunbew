@@ -6,4 +6,4 @@ title = 'About'
 
 # Introduction
 
-Hi this is Sonny :wave:
+Hi this is Sonny's website  :)
