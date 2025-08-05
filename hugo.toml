@@ -1,6 +1,6 @@
 baseURL = 'https://sonnyisyoung.org'
 languageCode = 'en-us'
-title = "sonny young"
+title = "sonny_young"
 theme = 'shibui'
 
 [params]
