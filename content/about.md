@@ -4,4 +4,10 @@ draft = false
 title = 'about'
 +++
 
-Hi this is Sonny's website  :)
+Welcome to Sonny's page.
+
+Contact:
+```ssyoung [at] stanford [dot] edu```
+```ssyoung [at] mit [dot] edu```
+
+

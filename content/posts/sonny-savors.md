@@ -1,12 +1,16 @@
 +++
 date = '2025-08-01T17:28:48+09:00'
 draft = true
-title = 'Sonny Likes'
+title = 'sonny savors'
 +++
 
-## Birth of the website
-
-Favorite foods:
+foods
 - unagi
 - soba
 - tororo
+
+music
+- copland clarinet concerto
+
+
+
