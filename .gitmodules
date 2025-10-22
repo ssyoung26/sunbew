@@ -4,3 +4,6 @@
 [submodule "themes/shibui"]
 	path = themes/shibui
 	url = git@github.com:ntk148v/shibui.git
+[submodule "themes/PaperMod"]
+	path = themes/PaperMod
+	url = https://github.com/adityatelange/hugo-PaperMod

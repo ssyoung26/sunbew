@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  {{ partial "head.html" . }}
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="site-title" href="{{ "/" | relURL }}">{{ .Site.Title }}</a>
+      <span class="site-tagline">{{ .Site.Params.tagline }}</span>
+      <nav class="site-nav">
+        <ul>
+          {{ range .Site.Menus.main }}
+          <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+          {{ end }}
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container content">{{ block "main" . }}{{ end }}</main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-left">
+        © {{ now.Format "2006" }} {{ .Site.Title }}
+      </div>
+      <div class="footer-right">
+        <a href="mailto:{{ .Site.Params.email }}">Email</a>
+        {{ with .Site.Params.github }} · <a href="https://github.com/{{ . }}">GitHub</a>{{ end }}
+        {{ with .Site.Params.scholar }} · <a href="https://scholar.google.com/citations?user={{ . }}">Scholar</a>{{ end }}
+        {{ with .Site.Params.orcid }} · <a href="https://orcid.org/{{ . }}">ORCID</a>{{ end }}
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
+

@@ -1,21 +1,29 @@
-baseURL = 'https://sonnyisyoung.org'
+baseURL = 'https://ssyoung26.github.io/'
 languageCode = 'en-us'
-title = "sonny_young"
+title = "Sonny Young"
 theme = 'shibui'
 
-[params]
-  author = "Sonny Young "
-  email = "ssyoung@mit.edu"
+[params.profile]
+  description = "Ph.D. Student"
+  affiliation = "MIT"
+  author = "Sonny Young"
+  email = "ssyoung [at] mit [dot] edu"
+  location = "Cambridge, MA"
+  headshot = "/images/headshot.png"
   enableEmoji = true
+
+  scholar = "Sonny Young"
+  github  = "ssyoung26"
+  linkedin = "Sonny Young"
 
 [menu]
   [[menu.main]]
-    name = "Blog"
-    url = "/blog/"
-    weight = 1
-  [[menu.main]]
     name = "About"
     url = "/about/"
+    weight = 1
+  [[menu.main]]
+    name = "Research"
+    url = "/research/"
     weight = 2
   [[menu.main]]
     name = "Posts"

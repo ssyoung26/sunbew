@@ -1,7 +1,7 @@
 +++
 date = '2025-08-01T17:28:48+09:00'
 draft = true
-title = 'sonny savors'
+title = 'savors'
 +++
 
 foods

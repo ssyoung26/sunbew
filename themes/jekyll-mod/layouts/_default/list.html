@@ -1,0 +1,20 @@
+{{ define "main" }}
+  <h1>{{ .Title }}</h1>
+  {{ with .Content }}<div class="lead">{{ . }}</div>{{ end }}
+  <ul class="index-list">
+    {{ range .Paginator.Pages }}
+      <li>
+        <a class="post-title" href="{{ .RelPermalink }}">{{ .Title }}</a>
+        <span class="post-meta">{{ .Date.Format "Jan 2, 2006" }}</span>
+        {{ with .Params.tags }}
+        <span class="tags">
+          {{ range . }}<span class="tag">{{ . }}</span>{{ end }}
+        </span>
+        {{ end }}
+        {{ with .Summary }}<p class="summary">{{ . }}</p>{{ end }}
+      </li>
+    {{ end }}
+  </ul>
+  {{ template "_internal/pagination.html" . }}
+{{ end }}
+

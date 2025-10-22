@@ -1,0 +1,82 @@
+{{ define "main" }}
+<section class="home-hero">
+  <div class="home-left">
+    <img class="headshot" src="{{ .Site.Params.profile.headshot | relURL }}" alt="{{ .Site.Params.profile.name }}">
+    <h1 class="hero-name">{{ .Site.Params.profile.name }}</h1>
+    <div class="hero-role">{{ .Site.Params.profile.role }}</div>
+    {{ with .Site.Params.profile.affiliation }}<div class="hero-affil">{{ . }}</div>{{ end }}
+    {{ with .Site.Params.profile.email }}<div class="hero-email">{{ . }}</div>{{ end }}
+
+    <div class="hero-icons">
+      {{ with .Site.Params.profile.scholar }}<a href="https://scholar.google.com/citations?user={{ . }}" target="_blank" rel="noopener">{{ partial "icons/scholar.svg" . }}</a>{{ end }}
+      {{ with .Site.Params.profile.github }}<a href="https://github.com/{{ . }}" target="_blank" rel="noopener">{{ partial "icons/github.svg" . }}</a>{{ end }}
+      {{ with .Site.Params.profile.linkedin }}<a href="https://linkedin.com/in/{{ . }}" target="_blank" rel="noopener">{{ partial "icons/linkedin.svg" . }}</a>{{ end }}
+    </div>
+  </div>
+
+  <div class="home-right">
+    <!-- About: optional; uses site home content if you keep text in content/_index.md -->
+    {{ with .Content }}
+    <section class="home-section">
+      <h2>About Me</h2>
+      <div class="prose">{{ . }}</div>
+    </section>
+    {{ end }}
+
+    <!-- Research Interests from content/research/_index.md -->
+    <section class="home-section">
+      <h2>Research Interests</h2>
+      {{ with site.GetPage "section" "research" }}
+        <div class="prose">{{ .Content }}</div>
+      {{ else }}
+        <p class="prose">Add your blurb to <code>content/research/_index.md</code>.</p>
+      {{ end }}
+    </section>
+    <!-- Selected Publications from content/research/** -->
+    <section class="home-section">
+      <h2>Selected Publications</h2>
+
+      {{/* gather only leaf pages under /research (not section index) */}}
+      {{ $all := where .Site.RegularPages "Section" "research" }}
+
+      {{/* filter: treat any page with venue, doi, or is_pub=true as a publication */}}
+      {{ $cands := slice }}
+      {{ range $p := $all }}
+        {{ $isPub := or (isset $p.Params "venue") (isset $p.Params "doi") }}
+        {{ $isPub = or $isPub (and (isset $p.Params "is_pub") (eq $p.Params.is_pub true)) }}
+        {{ if $isPub }}
+          {{ $cands = $cands | append $p }}
+        {{ end }}
+      {{ end }}
+
+      {{/* IMPORTANT: sort directly; do NOT uniq/union (they can coerce to strings) */}}
+      {{ $pubs := sort $cands "Date" "desc" }}
+
+      {{ if gt (len $pubs) 0 }}
+        <ul class="index-list">
+          {{ range first 5 $pubs }}
+            <li>
+              <div class="post-title">
+                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+              </div>
+              <div class="post-meta">
+                {{ with .Params.authors }}{{ delimit . ", " }} · {{ end }}
+                {{ with .Params.venue }}<em>{{ . }}</em>{{ end }}
+                {{ with .Date }}{{ if ne .Year 1 }} · {{ .Format "2006" }}{{ end }}{{ end }}
+              </div>
+              {{ with .Params.links }}
+                <div class="links">
+                  {{ range . }}<a href="{{ .url }}">{{ .name }}</a>{{ end }}
+                </div>
+              {{ end }}
+            </li>
+          {{ end }}
+        </ul>
+      {{ else }}
+        <p>No publications found under <code>content/research/</code>.</p>
+      {{ end }}
+    </section>
+  </div>
+</section>
+{{ end }}
+

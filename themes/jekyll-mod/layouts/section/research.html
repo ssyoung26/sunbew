@@ -1,0 +1,36 @@
+{{ define "main" }}
+  <h1>Publications</h1>
+  {{ with .Content }}<div class="lead">{{ . }}</div>{{ end }}
+
+  {{ $pubs := where .Site.RegularPages "Section" "publications" }}
+
+  {{ if $pubs }}
+    {{ range $g := ($pubs.GroupByDate "2006").Reverse }}
+      <h2>{{ $g.Key }}</h2>
+      <ul class="index-list">
+        {{ range $p := $g.Pages.ByWeight }}
+          <li>
+            <div class="post-title">{{ $p.Title }}</div>
+            <div class="post-meta">
+              {{ with $p.Params.authors }}{{ delimit . ", " }} · {{ end }}
+              {{ with $p.Params.venue }}{{ . }}{{ end }}
+            </div>
+            {{ with $p.Params.links }}
+              <div class="links">
+                {{ range . }}
+                  <a href="{{ .url }}">{{ .name }}</a>
+                {{ end }}
+              </div>
+            {{ end }}
+            {{ with $p.Params.abstract }}
+              <p class="summary">{{ . }}</p>
+            {{ end }}
+          </li>
+        {{ end }}
+      </ul>
+    {{ end }}
+  {{ else }}
+    <p>No publications yet.</p>
+  {{ end }}
+{{ end }}
+
