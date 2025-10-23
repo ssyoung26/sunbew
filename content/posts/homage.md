@@ -4,4 +4,13 @@ draft = false
 title = 'homage'
 +++
 
-coming soon...
+Fun things!
+
+- ```Stanford Puzzle Hunt 2022: Mission to Mars``` [(Puzzle)](https://docs.google.com/spreadsheets/d/13WesWSLhDLKD5lfsngmxzABmkSdsDa01/copy?usp=sharing&ouid=102806017482488617104&rtpof=true&sd=true)
+
+- ```Bassoon recital 2025``` [(Pantomine)](https://www.youtube.com/watch?v=9GVVVRjSDHE)
+
+- ```The classical music piece that shows up twice in Little Women``` [(Pathetique)](https://youtu.be/VxQushR3gs0)
+
+- ```Magic show 2018``` [(Paper)](https://youtu.be/Uyn1cGqhtUk)
+

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homes on Sonny Young</title>
+    <link>https://ssyoung26.github.io/sunbew/home/</link>
+    <description>Recent content in Homes on Sonny Young</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://ssyoung26.github.io/sunbew/home/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Research Interests</title>
+      <link>https://ssyoung26.github.io/sunbew/home/interests/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ssyoung26.github.io/sunbew/home/interests/</guid>
+      <description>&lt;p&gt;I aim develop computational frameworks for spatial perturbation modeling—methods that integrate single-cell, spatial, and perturbation data to uncover how cellular neighborhoods respond to genetic or chemical interventions. Broadly, my work focuses on building technologies that accelerate the discovery and design of new therapeutics, bridging molecular insight and spatial and temporal contexts to advance our understanding of human health and disease.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
