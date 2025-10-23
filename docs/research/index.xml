@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Research on Sonny Young</title>
-    <link>http://localhost:1313/sunbew/research/</link>
+    <link>https://ssyoung26.github.io/sunbew/research/</link>
     <description>Recent content in Research on Sonny Young</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 12 Jul 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/sunbew/research/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ssyoung26.github.io/sunbew/research/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>An RNA-immunoprecipitation via CRISPR/dCas13 reveals an interaction between the SARS-CoV-2 5&#39;UTR RNA and the process of human lipid metabolism</title>
-      <link>http://localhost:1313/sunbew/research/2023-scireports/</link>
+      <link>https://ssyoung26.github.io/sunbew/research/2023-scireports/</link>
       <pubDate>Fri, 23 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/sunbew/research/2023-scireports/</guid>
+      <guid>https://ssyoung26.github.io/sunbew/research/2023-scireports/</guid>
       <description></description>
     </item>
     <item>
       <title>Sulfanilamide Synthesis with a Modern Silyl-Sulfinylamine Willis Reagent</title>
-      <link>http://localhost:1313/sunbew/research/2023-sulfanilamide/</link>
+      <link>https://ssyoung26.github.io/sunbew/research/2023-sulfanilamide/</link>
       <pubDate>Wed, 16 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/sunbew/research/2023-sulfanilamide/</guid>
+      <guid>https://ssyoung26.github.io/sunbew/research/2023-sulfanilamide/</guid>
       <description></description>
     </item>
     <item>
       <title>Predicting Molecular Trajectories using Machine Learning Methods</title>
-      <link>http://localhost:1313/sunbew/research/2023-trajectories/</link>
+      <link>https://ssyoung26.github.io/sunbew/research/2023-trajectories/</link>
       <pubDate>Mon, 18 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/sunbew/research/2023-trajectories/</guid>
+      <guid>https://ssyoung26.github.io/sunbew/research/2023-trajectories/</guid>
       <description></description>
     </item>
     <item>
       <title>Predicting Winning Captions for Weekly New Yorker Comics</title>
-      <link>http://localhost:1313/sunbew/research/2024-newyorker/</link>
+      <link>https://ssyoung26.github.io/sunbew/research/2024-newyorker/</link>
       <pubDate>Fri, 12 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/sunbew/research/2024-newyorker/</guid>
+      <guid>https://ssyoung26.github.io/sunbew/research/2024-newyorker/</guid>
       <description></description>
     </item>
   </channel>
