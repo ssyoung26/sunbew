@@ -3,6 +3,8 @@ languageCode = 'en-us'
 title = "Sonny Young"
 theme = 'shibui'
 publishDir = 'docs'
+relativeURLs = true
+canonifyURLs = true
 
 [params.profile]
   description = "Ph.D. Student"

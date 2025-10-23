@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Sonny Young</title>
-    <link>https://ssyoung26.github.io/sunbew/posts/</link>
+    <link>http://localhost:1313/sunbew/posts/</link>
     <description>Recent content in Posts on Sonny Young</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 04 Aug 2025 10:06:04 +0900</lastBuildDate>
-    <atom:link href="https://ssyoung26.github.io/sunbew/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/sunbew/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>homage</title>
-      <link>https://ssyoung26.github.io/sunbew/posts/homage/</link>
+      <link>http://localhost:1313/sunbew/posts/homage/</link>
       <pubDate>Mon, 04 Aug 2025 10:06:04 +0900</pubDate>
-      <guid>https://ssyoung26.github.io/sunbew/posts/homage/</guid>
+      <guid>http://localhost:1313/sunbew/posts/homage/</guid>
       <description>&lt;p&gt;Fun things!&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;code&gt;Stanford Puzzle Hunt 2022: Mission to Mars&lt;/code&gt; &lt;a href=&#34;https://docs.google.com/spreadsheets/d/13WesWSLhDLKD5lfsngmxzABmkSdsDa01/copy?usp=sharing&amp;amp;ouid=102806017482488617104&amp;amp;rtpof=true&amp;amp;sd=true&#34;&gt;(Puzzle)&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;code&gt;Bassoon recital 2025&lt;/code&gt; &lt;a href=&#34;https://www.youtube.com/watch?v=9GVVVRjSDHE&#34;&gt;(Pantomine)&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;code&gt;The classical music piece that shows up twice in Little Women&lt;/code&gt; &lt;a href=&#34;https://youtu.be/VxQushR3gs0&#34;&gt;(Pathetique)&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;code&gt;Magic show 2018&lt;/code&gt; &lt;a href=&#34;https://youtu.be/Uyn1cGqhtUk&#34;&gt;(Paper)&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>
