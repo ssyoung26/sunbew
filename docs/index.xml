@@ -6,7 +6,7 @@
     <description>Recent content in About Me on Sonny Young</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 22 Oct 2025 18:28:11 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 04 Aug 2025 10:06:04 +0900</lastBuildDate>
     <atom:link href="https://ssyoung26.github.io/sunbew/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>An RNA-immunoprecipitation via CRISPR/dCas13 reveals an interaction between the SARS-CoV-2 5&#39;UTR RNA and the process of human lipid metabolism</title>
@@ -37,27 +37,6 @@
       <description></description>
     </item>
     <item>
-      <title>Food</title>
-      <link>https://ssyoung26.github.io/sunbew/posts/food/</link>
-      <pubDate>Wed, 22 Oct 2025 18:28:11 -0400</pubDate>
-      <guid>https://ssyoung26.github.io/sunbew/posts/food/</guid>
-      <description>&lt;p&gt;coming soon&amp;hellip;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>blog</title>
-      <link>https://ssyoung26.github.io/sunbew/posts/blog/</link>
-      <pubDate>Wed, 06 Aug 2025 17:13:49 +0900</pubDate>
-      <guid>https://ssyoung26.github.io/sunbew/posts/blog/</guid>
-      <description>&lt;p&gt;coming soon&amp;hellip;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Projects</title>
-      <link>https://ssyoung26.github.io/sunbew/research/projects/</link>
-      <pubDate>Wed, 06 Aug 2025 17:05:52 +0900</pubDate>
-      <guid>https://ssyoung26.github.io/sunbew/research/projects/</guid>
-      <description>&lt;p&gt;Link to &lt;a href=&#34;https://scholar.google.com/citations?user=wOmDG3QAAAAJ&amp;amp;hl=en&amp;amp;oi=ao&#34;&gt;Google Scholar&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Current research interests:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Protein and DNA language modeling&lt;/li&gt;&#xA;&lt;li&gt;Enzyme discovery&lt;/li&gt;&#xA;&lt;li&gt;Compilers for chemistry&lt;/li&gt;&#xA;&lt;li&gt;Biochemistry mechanistic elucidation&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
       <title>homage</title>
       <link>https://ssyoung26.github.io/sunbew/posts/homage/</link>
       <pubDate>Mon, 04 Aug 2025 10:06:04 +0900</pubDate>
@@ -70,20 +49,6 @@
       <pubDate>Fri, 01 Aug 2025 17:58:57 +0900</pubDate>
       <guid>https://ssyoung26.github.io/sunbew/about/</guid>
       <description>&lt;p&gt;&lt;code&gt;ssyoung [at] mit [dot] edu&lt;/code&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Photos</title>
-      <link>https://ssyoung26.github.io/sunbew/posts/photos/</link>
-      <pubDate>Fri, 01 Aug 2025 17:48:00 +0900</pubDate>
-      <guid>https://ssyoung26.github.io/sunbew/posts/photos/</guid>
-      <description>&lt;p&gt;Picture format:&#xA;&lt;code&gt;![Photo 1](/static/images/photo1.jpg)&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;PDF Viewer:&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;&lt;code&gt;&amp;lt;embed src=&amp;quot;/static/files/RLHassabis.pdf&amp;quot; type=&amp;quot;application/pdf&amp;quot; width=&amp;quot;100%&amp;quot; height=&amp;quot;600px&amp;quot;&amp;gt;&lt;/code&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>savors</title>
-      <link>https://ssyoung26.github.io/sunbew/posts/savors/</link>
-      <pubDate>Fri, 01 Aug 2025 17:28:48 +0900</pubDate>
-      <guid>https://ssyoung26.github.io/sunbew/posts/savors/</guid>
-      <description>&lt;p&gt;foods&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;unagi&lt;/li&gt;&#xA;&lt;li&gt;soba&lt;/li&gt;&#xA;&lt;li&gt;tororo&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;music&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;copland clarinet concerto&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Research Interests</title>

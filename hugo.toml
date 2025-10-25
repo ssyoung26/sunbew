@@ -2,8 +2,8 @@ baseURL = 'https://ssyoung26.github.io/sunbew/'
 languageCode = 'en-us'
 title = "Sonny Young"
 theme = 'shibui'
-publishDir = 'docs'
-relativeURLs = true
+publishDir = 'public'
+relativeURLs = false
 canonifyURLs = true
 
 [params.profile]
