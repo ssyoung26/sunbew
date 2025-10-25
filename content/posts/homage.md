@@ -10,7 +10,7 @@ Fun things! This page is a puzzle.
 
 - ```Bassoon recital 2025``` [(Pantomine)](https://www.youtube.com/watch?v=9GVVVRjSDHE)
 
-- ```The classical music piece that shows up twice in Little Women``` [(Pathetique)](https://youtu.be/VxQushR3gs0)
+- ```Piece in Little Women``` [(Pathetique)](https://youtu.be/VxQushR3gs0)
 
 - ```Magic show 2018``` [(Paper)](https://youtu.be/Uyn1cGqhtUk)
 
