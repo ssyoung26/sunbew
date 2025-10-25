@@ -14,3 +14,5 @@ abstract: "Developed a CRISPR/dCas13-based RNA immunoprecipitation approach to m
 Authors: Yurika Shimizu, Srinivas Bandaru, Mari Hara, **Sonny Young**, Toshikazu Sano, Kaya Usami, Yuta Kurano, Suni Lee, Naoko Kumagai-Takei, Shogo Takashiba, Shunji Sano, Tatsuo Ito
 
 Developed a CRISPR/dCas13-based RNA immunoprecipitation approach to map host–viral RNA interactions, identifying a specific connection between the SARS-CoV-2 5′ UTR and human lipid-metabolism pathways. Suggests a mechanism through which viral RNA can influence host lipid regulation during infection.
+
+[Link](https://www.nature.com/articles/s41598-023-36680-6) to paper
