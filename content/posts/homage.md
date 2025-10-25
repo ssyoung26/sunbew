@@ -4,7 +4,7 @@ draft = false
 title = 'homage'
 +++
 
-Fun things!
+Fun things! This page is a puzzle. 
 
 - ```Stanford Puzzle Hunt 2022: Mission to Mars``` [(Puzzle)](https://docs.google.com/spreadsheets/d/13WesWSLhDLKD5lfsngmxzABmkSdsDa01/copy?usp=sharing&ouid=102806017482488617104&rtpof=true&sd=true)
 

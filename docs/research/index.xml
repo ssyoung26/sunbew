@@ -6,7 +6,7 @@
     <description>Recent content in Research on Sonny Young</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 12 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 06 Aug 2025 17:05:52 +0900</lastBuildDate>
     <atom:link href="https://ssyoung26.github.io/sunbew/research/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>An RNA-immunoprecipitation via CRISPR/dCas13 reveals an interaction between the SARS-CoV-2 5&#39;UTR RNA and the process of human lipid metabolism</title>
@@ -35,6 +35,13 @@
       <pubDate>Fri, 12 Jul 2024 00:00:00 +0000</pubDate>
       <guid>https://ssyoung26.github.io/sunbew/research/2024-newyorker/</guid>
       <description></description>
+    </item>
+    <item>
+      <title>Projects</title>
+      <link>https://ssyoung26.github.io/sunbew/research/projects/</link>
+      <pubDate>Wed, 06 Aug 2025 17:05:52 +0900</pubDate>
+      <guid>https://ssyoung26.github.io/sunbew/research/projects/</guid>
+      <description>&lt;p&gt;Link to &lt;a href=&#34;https://scholar.google.com/citations?user=wOmDG3QAAAAJ&amp;amp;hl=en&amp;amp;oi=ao&#34;&gt;Google Scholar&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Current research interests:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Protein and DNA language modeling&lt;/li&gt;&#xA;&lt;li&gt;Enzyme discovery&lt;/li&gt;&#xA;&lt;li&gt;Compilers for chemistry&lt;/li&gt;&#xA;&lt;li&gt;Biochemistry mechanistic elucidation&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>
