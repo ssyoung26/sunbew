@@ -1,7 +1,6 @@
 ---
 title: "Predicting Molecular Trajectories using Machine Learning Methods (ChemRxiv 2023)"
 date: 2023-12-18
-weight: 3
 authors: ["Sonny Young"]
 venue: "ChemRxiv 2023"
 is_pub: false

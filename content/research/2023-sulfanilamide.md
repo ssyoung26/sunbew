@@ -1,7 +1,6 @@
 ---
 title: "Sulfanilamide Synthesis with a Modern Silyl-Sulfinylamine Willis Reagent (ChemRxiv 2023)"
 date: 2023-08-16
-weight: 2
 authors: ["Sonny Young"]
 venue: "ChemRxiv 2023"
 is_pub: false

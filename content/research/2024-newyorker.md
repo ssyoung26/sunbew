@@ -1,7 +1,6 @@
 ---
 title: "Predicting Winning Captions for Weekly New Yorker Comics (arXiv 2024)"
 date: 2024-07-12
-weight: 4
 authors: ["Stanley Cao", "Sonny Young"]
 venue: "arXiv 2024"
 is_pub: false
